@@ -54,16 +54,21 @@ def create_buttons(answer, l_margin, r_margin):
     button.setCursor(QCursor(QtCore.Qt.PointingHandCursor))
     button.setFixedWidth(485)
     button.setStyleSheet(
-        "*{border: 4px solid '#BC006C';" +
-        "margin-left: " + str(l_margin) +"px;"+
+        #setting variable margins
+        "*{margin-left: " + str(l_margin) +"px;"+
         "margin-right: " + str(r_margin) +"px;"+
-        "color: white;"+
-        "font-family: 'shanti';"+
-        "font-size: 16px;"+
-        "border-radius: 25px;"+
-        "padding: 15px 0;"+
-        "margin-top: 20px}"+
-        "*:hover{background: '#BC006C'}"
+        '''
+        border: 4px solid '#BC006C';
+        color: white;
+        font-family: 'shanti';
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 15px 0;
+        margin-top: 20px}
+        *:hover{
+            background: '#BC006C'
+        }
+        '''
     )
     button.clicked.connect(show_frame1)
     return button
@@ -81,13 +86,19 @@ def frame1():
     button = QPushButton("PLAY")
     button.setCursor(QCursor(QtCore.Qt.PointingHandCursor))
     button.setStyleSheet(
-        "*{border: 4px solid '#BC006C';" +
-        "border-radius: 45px;" +
-        "font-size: 35px;" +
-        "color: 'white';" +
-        "padding: 25px 0;" +
-        "margin: 100px 200px;}" +
-        "*:hover{background: '#BC006C';}"
+        '''
+        *{
+            border: 4px solid '#BC006C';
+            border-radius: 45px;
+            font-size: 35px;
+            color: 'white';
+            padding: 25px 0;
+            margin: 100px 200px;
+        }
+        *:hover{
+            background: '#BC006C';
+        }
+        '''
     )
     #button callback
     button.clicked.connect(start_game)
@@ -102,13 +113,15 @@ def frame2():
     score = QLabel("80")
     score.setAlignment(QtCore.Qt.AlignRight)
     score.setStyleSheet(
-        "font-size: 35px;" +
-        "color: 'white';"+
-        "padding: 15px 10px;"+
-        "margin: 20px 200px;"+
-        "background: '#64A314';"+
-        "border: 1px solid '#64A314';"+
-        "border-radius: 35px;"
+        '''
+        font-size: 35px;
+        color: 'white';
+        padding: 15px 10px;
+        margin: 20px 200px;
+        background: '#64A314';
+        border: 1px solid '#64A314';
+        border-radius: 35px;
+        '''
     )
     widgets["score"].append(score)
 
@@ -117,10 +130,12 @@ def frame2():
     question.setAlignment(QtCore.Qt.AlignCenter)
     question.setWordWrap(True)
     question.setStyleSheet(
-        "font-family: Shanti;"+
-        "font-size: 25px;" +
-        "color: 'white';" +
-        "padding: 75px;"
+        '''
+        font-family: Shanti;
+        font-size: 25px;"
+        color: 'white';"
+        padding: 75px;
+        '''
     )
     widgets["question"].append(question)
 
@@ -155,7 +170,7 @@ def frame2():
 #display frame 1
 frame1()
 
-window.setLayout(grid) 
+window.setLayout(grid)
 
 window.show()
 sys.exit(app.exec()) #terminate the app
