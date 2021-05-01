@@ -11,6 +11,13 @@ contain all the files required to follow the step by step tutorial on Youtube:
 https://youtu.be/9iZLDnW_vwU
 <br>
 <br>
+<b>Part 2 - Starter Files</b>
+<br>
+contains all the required files to complete the second part of the tutorial on Youtube:
+<br>
+https://youtu.be/r2ZN0mTDnPc
+<br>
+<br>
 <b>Interface Only/</b>
 <br>
 contains the files of the first 2 frames only.
