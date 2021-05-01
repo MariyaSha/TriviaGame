@@ -11,7 +11,7 @@ contain all the files required to follow the step by step tutorial on Youtube:
 https://youtu.be/9iZLDnW_vwU
 <br>
 <br>
-<b>Part 2 - Starter Files</b>
+<b>Part 2 - Starter Files/</b>
 <br>
 contains all the required files to complete the second part of the tutorial on Youtube:
 <br>
