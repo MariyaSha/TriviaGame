@@ -7,28 +7,39 @@ This is a trivia game testing ones' level of computer science knowledge.
 ![Trivia Game with PyQt5](https://user-images.githubusercontent.com/32107652/116930221-54fb2280-ac14-11eb-8b10-2215c5401a06.jpg)
 <br>
 <br>
-<b>Starter Files/</b>
+<b>Trivia Questions Database:</b>
 <br>
-contain all the files required to follow the step by step tutorial on Youtube:
+https://opentdb.com/
+<br>
+<br>
+<b>Trivia - Starter Files/</b>
+<br>
+contain all the files required to follow the step by step tutorial on Youtube.
+<br>
+<b>Python GUI App with PyQt5 - PART 1:</b>
 <br>
 https://youtu.be/9iZLDnW_vwU
 <br>
 <br>
-<b>Part 2 - Starter Files/</b>
+<b>Trivia - Interface Only/</b>
+<br>
+contains the files of the first 2 frames only.
+<br>
+also, excluding all the functionality of the app - only focusing on design and switching frames.
+<br>
+This is the finished code of the <b>Part 1</b> tutorial on YouTube.
+<br>
+<br>
+<b>Part 2 - Trivia - Starter Files/</b>
+<br>
+<b>Python GUI App with PyQt5 - PART 2:</b>
 <br>
 contains all the required files to complete the second part of the tutorial on Youtube:
 <br>
 https://youtu.be/r2ZN0mTDnPc
 <br>
 <br>
-<b>Interface Only/</b>
-<br>
-contains the files of the first 2 frames only.
-<br>
-also, excluding all the functionality of the app - only focusing on design and switching frames.
-<br>
-<br>
-<b>Complete App/</b>
+<b>Trivia - Complete App/</b>
 <br>
 contains the files of the complete application.
 <br>
@@ -37,6 +48,8 @@ data base: Open Trivia (https://opentdb.com/)
 dependencies: Pandas, PyQt5
 <br>
 author: Mariya Sha
+<br>
+This is the finished code of the <b>Part 2</b> tutorial on YouTube.
 <br>
 <br>
 <b>Special Thank you</b> to m. B of Youtube for pointing out that triple quotes
@@ -59,4 +72,8 @@ https://www.mariyasha.com
 connect on Linkedin:
 <br>
 https://www.linkedin.com/in/mariyasha888/
+<br>
+find me on Instagram:
+<br>
+https://www.instagram.com/mariyasha888/
   
