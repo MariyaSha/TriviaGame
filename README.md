@@ -4,6 +4,9 @@ Who Wants to be a Programmer?? - GUI Application with PyQt5
 This is a trivia game testing ones' level of computer science knowledge.
 <br>
 <br>
+![Trivia Game with PyQt5](https://user-images.githubusercontent.com/32107652/116930221-54fb2280-ac14-11eb-8b10-2215c5401a06.jpg)
+<br>
+<br>
 <b>Starter Files/</b>
 <br>
 contain all the files required to follow the step by step tutorial on Youtube:
