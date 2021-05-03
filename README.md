@@ -32,9 +32,9 @@ This is the finished code of the <b>Part 1</b> tutorial on YouTube.
 <br>
 <b>Part 2 - Trivia - Starter Files/</b>
 <br>
-<b>Python GUI App with PyQt5 - PART 2:</b>
-<br>
 contains all the required files to complete the second part of the tutorial on Youtube:
+<br>
+<b>Python GUI App with PyQt5 - PART 2:</b>
 <br>
 https://youtu.be/r2ZN0mTDnPc
 <br>
@@ -43,13 +43,14 @@ https://youtu.be/r2ZN0mTDnPc
 <br>
 contains the files of the complete application.
 <br>
-data base: Open Trivia (https://opentdb.com/)
-<br>
-dependencies: Pandas, PyQt5
-<br>
-author: Mariya Sha
-<br>
 This is the finished code of the <b>Part 2</b> tutorial on YouTube.
+<br>
+<br>
+<b>data base:</b> Open Trivia (https://opentdb.com/)
+<br>
+<b>dependencies:</b> Pandas, PyQt5
+<br>
+<b>author:</b> Mariya Sha
 <br>
 <br>
 <b>Special Thank you</b> to m. B of Youtube for pointing out that triple quotes
